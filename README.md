@@ -19,7 +19,7 @@ docker run -it --rm --mount type=bind,source=C:\Users,target=/home windows-shell
 You can create a windows shortcut, with the following target, to start the terminal directly.
 
 ```
-%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -command "docker run -it --rm --mount type=bind,source=C:\Users\foers,target=/home/bf windows-shell"
+%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -command "docker run -it --rm --mount type=bind,source=C:\Users,target=/home windows-shell"
 ```
 
 # TODOs
